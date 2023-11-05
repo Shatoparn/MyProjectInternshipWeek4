@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Book House</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <!-- Move to up bottom -->
+    <div class="scroll-button">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!-- navigation menu -->
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="#">Book House</a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#product">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+            </ul>
+            <div class="media-icons">
+                <a href="https://www.facebook.com/shatoparna.bhattacharya.7?mibextid=ZbWKwL">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/shatoparna-bhattacharya-349470285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="text">
+                <div class="text-one">Hello,</div>
+                <div class="text-two">Welcome to our Book House</div>
+                <div class="text-three">An ultimate destination for all the adventurous bookworms.</div>
+                <div class="text-three">Curate your own bookcollection from sci-fi to fantasy, romance to comics all on one page.</div>
+                <div class="text-four">From India</div>
+            </div>
+            <!-- <div class="button">
+              <button>Hire Me</button>
+            </div> -->
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="home-content">
+            <div class="title"><span>About Us</span></div>
+            <div class="text">
+                <div class="text-one" align="center"><p>Welcome to the world of South Kolkata's premier Book Collection Curator, founded by a dedicated bookworm for all the bookworms out there. Our story began as a personal quest to cherish the beauty of literature and has evolved into a shared passion for curating a unique collection that resonates with the discerning tastes of fellow book enthusiasts. We meticulously handpick books, spanning diverse genres and promoting local literary talents. With personalized recommendations, events, workshops, and a commitment to sustainability, we aim to foster a community of book lovers. Join us in celebrating the written word, exploring the magic of books, and turning the pages of timeless stories. Happy reading!</p>
+                </div>
+                
+            </div>
+            <!-- <div class="button">
+      <button>Hire Me</button>
+    </div> -->
+        </div>
+    </section>
+
+    <!-- Product Section Start -->
+    <section class="product" id="product">
+        <div class="content">
+            <div class="title"><span>Surprise Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <!-- add path of your image -->
+                    <img decoding="async" src="./images/Book1.webp" alt="Book2">
+                </div>
+                <div class="right">
+                    <button class="price" type="button" disabled>Price: Rs.3000.00</button>
+                    <!-- <div class="topic">Designing Is My Passion</div> -->
+                    <p>A collection of 5 books by Bestselling authors in different genres..</p>
+
+                    <div class="button">
+                        <button type="button" id="button1" onclick="addToCart('Surprise Me<br>')">
+                            <!-- <a href="https://drive.google.com/file/d/1sz23BtpdUsJx86WFbpcHlJAWc-iwPsrA/view?usp=sharing"> -->
+                            Add To Cart
+                            <!-- </a> -->
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <section class="product" id="product">
+            <div class="content">
+                <div class="title"><span>My Type</span></div>
+                <div class="about-details">
+                    <div class="left">
+                        <!-- add path of your image -->
+                        <img decoding="async" src="./images/Book2.webp" alt="Book2">
+                    </div>
+                    <div class="right">
+                        <button class="price" type="button" disabled>Price: Rs.3200.00</button>
+                        <!-- <div class="topic">Designing Is My Passion</div> -->
+                        <p>Collection of Books of your genre choice.</p>
+                        <div class="dropdown">
+                            <button class="dropbtn">Genres</button>
+                            <div class="dropdown-content">
+                                <a href="#">Sci-fi</a>
+                                <a href="#">Fantasy</a>
+                                <a href="#">Romance</a>
+                                <a href="#">Melodrama</a>
+                                <a href="#">Rom-com</a>
+                                <a href="#">Horror</a>
+                                <a href="#">Thriller</a>
+                                <a href="#">Detective</a>
+                                <a href="#">Comics</a>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button type="button" id="button1" onclick="addToCart('My Type<br>')">
+                                <!-- <a href="https://drive.google.com/file/d/1sz23BtpdUsJx86WFbpcHlJAWc-iwPsrA/view?usp=sharing"> -->
+                                Add To Cart
+                                <!-- </a> -->
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!-- Portfolio Section Start -->
+        <!-- Contact Me Section Start -->
+        <section class="contact" id="contact">
+            <div class="content">
+                <div class="title"><span>Contact Me</span></div>
+                <div class="text">
+                    <div class="topic">Have Any Projects?</div>
+                    <div class="button">
+                        <button>
+                            <a href="mailto:shatoparnabhattacharya@gmail.com">Let's Chat</a>
+
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section Start -->
+        <footer>
+            <div class="text">
+                <span>Created By <a href="#">Shatoparna Bhattacharya</a> | © 2023 All Rights Reserved.</span>
+            </div>
+        </footer>
+
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
